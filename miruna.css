@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Roboto;
+  background: #ddd;
+  line-height: 1.4;
+  color: #fff;
+}
+.orange-cl {
+  color: #ffa500;
+}
+/* PAGINA ACASA */
+/* nav-bar */
+.nav-bar {
+  background: #ddd;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  position: relative;
+  left: 60px;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  position: relative;
+  right: 100px;
+}
+.list a {
+  padding: 1.6rem 4rem;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  transition: all 0.2s ease-in-out;
+}
+.list a:hover {
+  background: #ffa500;
+  color: #fff;
+}
+/* showcase */
+.showcase {
+  background: url("./img/unnamed\ \(4\).jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-attachment: fixed;
+}
+.content-showcase > h1 {
+  font-size: 4rem;
+  margin: 1rem 4rem;
+  text-shadow: 3px 3px #333;
+}
+.content-showcase > p {
+  font-size: 1.3rem;
+}
+/* info */
+.info {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+}
+.info-img {
+  background: url("./img/unnamed.jpg") no-repeat center center/cover;
+  width: 50%;
+  height: 100%;
+}
+.info-txt {
+  background: #ddd;
+  width: 50%;
+  height: 100%;
+  color: #333;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.info-txt > h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+.info-txt > p {
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+/* vers br - intrerupere img */
+.vers-bg {
+  width: 100%;
+  height: 55vh;
+  background: url("./img/unnamed\ \(4\).jpg") center center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+.txt-bg {
+  font-size: 1.7rem;
+  margin: 0 2rem;
+  font-style: italic;
+}
+/* artists */
+.artists {
+  width: 100%;
+  height: 80vh;
+  background: #ddd;
+  color: #333;
+  text-align: center;
+}
+.artist {
+  width: 30%;
+  height: 100%;
+  padding: 2.5rem 0;
+}
+.content-artists {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.concert-heading{
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+}
+/* img */
+.artist-pic1 {
+  background: url('./img/loco.jpeg') no-repeat center center/cover;
+  width: 100%;
+  height: 50vh;
+}
+.artist-pic2 {
+  background: url("./img/unnamed\ \(5\).jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 50vh;
+}
+.artist-pic3 {
+  background: url("./img/unnamed\ \(1\).jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 50vh;
+}
+/* artists txt */
+.txt-artist {
+  padding: 1.2rem;
+  background: #f4f4f4;
+}
+.txt-artist > h2 {
+  font-size: 2.2rem;
+}
+.txt-artist > p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.map {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border-radius: 15px;
+  top: 25px;
+}
+.footer {
+  text-align: center;
+  color: #333;
+  padding: 0.75rem;
+}
+/* PAGINA CONCERTE */
+.concert {
+  width: 100%;
+  height: 260vh;
+  background: url('./img/unnamed\ \(4\).jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  padding: 0 1rem;
+}
+.concert-content{
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 2;
+  
+}
+.box{
+  width: 500px;
+  height: 400px;
+  outline: 2px #fff solid;
+  margin: 5rem;
+}
+/* concert img */
+.concert-img1{
+  width: 100%;
+  height: 100%;
+  background: url('./img/man33.jpg') no-repeat center center/cover;
+}
+.concert-img2{
+  width: 100%;
+  height: 100%;
+  background: url('./img/audience2.jpg') no-repeat center center/cover;
+}
+.concert-img3{
+  width: 100%;
+  height: 100%;
+  background: url('./img/pexels-photo-976866.jpeg') no-repeat center center/cover;
+}
+.concert-img4{
+  width: 100%;
+  height: 100%;
+  background: url('./img/mic.jpg')no-repeat center center/cover;
+}
+.concert-img5{
+  width: 100%;
+  height: 100%;
+  background: url('./img/artist-musician7.jpg')no-repeat right center/cover;
+}
+.concert-img6{
+  width: 100%;
+  height: 100%;
+  background: url('./img/audience4.jpg')no-repeat right center/cover;
+}
+.concert-txt{
+  width: 100%;
+  height: 30%;
+  background: #fff;
+  outline: #fff solid 2px;
+  color: #333;
+  padding: 0.5rem 1rem;
+}
+/* PAGINA: DOGname */
+.dog{
+  width: 100%;
+  height: 156vh;
+}
+.dog-showcase{
+  width: 100%;
+  height: 75vh;
+  background: url('./img/dogoo\ \(9\)\(1\).jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #fff;
+}
+.dog-showcase >h2{
+  font-size: 3rem;
+  text-align: center;
+}
+.dog-showcase >p{
+  text-align: center;
+  padding: 2rem 9rem;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px #333;
+}
+.dog-display{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+.dog-left{
+  width: 50%;
+  height: 100%;
+  background: url('./img/dogoo\ \(8\)\(1\).jpg') no-repeat center center/cover;
+  border: 5px solid #fff;
+}
+.dog-right{
+  width: 50%;
+  height: 100%;
+  background: url('./img/dogoo\ \(6\).jpg') no-repeat center center/cover;
+  border: 5px solid #fff;
+}
+/* location */
+.location {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("./img/unnamed\ \(6\).jpg") no-repeat left bottom/cover;
+  background-attachment: fixed;
+}
+.location ul li {
+  list-style: none;
+}
+.location-contact {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.7;
+  align-items: center;
+}
+.location-contact ul li a {
+  color: #ffa500;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.location-contact a:hover {
+  font-size: 1.9rem;
+  transition: all 0.2s ease-in-out;
+}
+.location-contact ul li > h2 {
+  font-size: 3rem;
+  text-shadow: 2px 3px #333;
+}
+.location-contact ul li > p {
+  font-size: 1.4rem;
+  text-shadow: 2px 3px #333;
+}
+/* MEDIA */
+.media>a>i{
+  color: #fff;
+  padding: 2rem 1rem;
+}
+.media>a>i:hover{
+  color: #ffa500;
+  font-size: 3.2rem;
+  transition: all 0.2s ease-in-out;
+}
+.media-leading{
+  font-size: 1.5rem;
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
